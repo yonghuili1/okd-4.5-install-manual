@@ -50,7 +50,7 @@
 | Master节点3台 | 集群Master节点 |
 | Work节点两台 |  集群Work节点|
 
-由于AWS UPI安装okd官方提供了cloudformation模版，我们只需按照文档中的cloudformation template稍作修改即可
+由于AWS UPI安装okd官方提供了cloudformation模版，我们只需按照文档中的cloudformation template稍作修改即可,本文所有操作在我已经准备好local registry后。
 
 #### 1. 使用openshift-install安装程序创建install-config.yaml，这个文件提供了集群安装的一些初始化信息
  
